@@ -1,0 +1,59 @@
+body{
+    background-color: rgb(231, 206, 255);
+   
+}
+fieldset{
+    border-color: #fff;
+    border-style: double;
+    border-radius: 25px;
+
+}
+h1{
+    text-align: center;
+    font-family:cursive;
+    color: #9938fa;
+        animation-duration: 2s;
+        animation-name: slidein;
+      }
+      
+      @keyframes slidein {
+        from {
+          margin-left: 100%;
+          width: 300%;
+        }
+      
+        to {
+          margin-left: 0%;
+          width: 100%;
+        }
+      }
+
+summary{
+    color: rgb(0, 0, 0);
+}
+p{
+    color: #000000;
+    font-family: monospace;
+    text-align: center;
+    font-size: 20px;
+}
+button{
+    border-color: #9938fa;
+    border-radius:13px ;
+    background-color: #b571fa;
+    color: #fff;
+}
+h4{
+     color: #fcfcfc;
+     font-family: cursive;
+     text-align: center;
+}
+h4:hover{
+    color: #b571fa;
+}
+summary:hover{
+    color: #8303fa;
+}
+p:hover{
+    color:darkorchid;
+}
